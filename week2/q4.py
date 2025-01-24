@@ -6,8 +6,6 @@ def processNumberDecorator(func):
         return func(numbers)
     return wrapper
 
-
-
 @processNumberDecorator
 def processNumbers(numbers):
     print( "Processing the numbers...")
